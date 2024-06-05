@@ -1,7 +1,7 @@
 package tools;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-class palindromeCheckerTest {
+class palindromeCheckerTest{
 palindromeChecker palindromeChecker = new palindromeChecker();
     @Test
     public void testReverse() {
