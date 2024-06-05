@@ -4,7 +4,7 @@ public class palindromeChecker {
         String reversed = "";
         for(int i = 0; i < s.length(); i++) {
               reversed = s.charAt(i) + reversed;
-        }
+         }
             return reversed;
     }
     public boolean isPalindrome(String s) {
