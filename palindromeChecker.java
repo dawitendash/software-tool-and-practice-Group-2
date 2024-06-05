@@ -12,10 +12,8 @@ public class palindromeChecker {
     public boolean isPalindrome(String s) {
         return s.equals(reverse(s));
     }  
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 	}
 
 }
