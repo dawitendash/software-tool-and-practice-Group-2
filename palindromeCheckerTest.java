@@ -10,8 +10,8 @@ palindromeChecker palindromeChecker = new palindromeChecker();
     }
      @Test
     public void testIsPalindrome() {
-        assertEquals(true, palindromeChecker.isPalindrome("level"));
-        assertEquals(false,palindromeChecker.isPalindrome("eba"));
+         assertEquals(true, palindromeChecker.isPalindrome("level"));
+         assertEquals(false,palindromeChecker.isPalindrome("eba"));
      }
 
  }
