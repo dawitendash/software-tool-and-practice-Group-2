@@ -8,7 +8,7 @@ palindromeChecker palindromeChecker = new palindromeChecker();
         assertEquals("level", palindromeChecker.reverse("level"));
         assertEquals("abe", palindromeChecker.reverse("eba"));
     }
-    @Test
+     @Test
     public void testIsPalindrome() {
         assertEquals(true, palindromeChecker.isPalindrome("level"));
         assertEquals(false,palindromeChecker.isPalindrome("eba"));
