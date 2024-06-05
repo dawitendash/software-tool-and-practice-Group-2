@@ -1,7 +1,6 @@
 package tools;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 class palindromeCheckerTest {
 palindromeChecker palindromeChecker = new palindromeChecker();
@@ -14,7 +13,7 @@ palindromeChecker palindromeChecker = new palindromeChecker();
     @Test
     public void testIsPalindrome() {
         assertEquals(true, palindromeChecker.isPalindrome("level"));
-        assertEquals(false, palindromeChecker.isPalindrome("eba"));
+        assertEquals(false,palindromeChecker.isPalindrome("eba"));
     }
 
 }
