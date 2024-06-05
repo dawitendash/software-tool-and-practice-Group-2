@@ -5,8 +5,8 @@ class palindromeCheckerTest{
 palindromeChecker palindromeChecker = new palindromeChecker();
     @Test
     public void testReverse() {
-        assertEquals("level", palindromeChecker.reverse("level"));
-        assertEquals("abe", palindromeChecker.reverse("eba"));
+         assertEquals("level", palindromeChecker.reverse("level"));
+         assertEquals("abe", palindromeChecker.reverse("eba"));
     }
      @Test
     public void testIsPalindrome() {
