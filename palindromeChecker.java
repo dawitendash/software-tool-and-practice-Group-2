@@ -1,16 +1,20 @@
 package tools;
-public class palindromeChecker {
-	public String reverse(String s){
-        String reversed = "";
-        for(int i = 0; i < s.length(); i++) {
-              reversed = s.charAt(i) + reversed;
-         }
-            return reversed;
+
+public class PalindromeChecker {
+    public boolean isPalindrome(String str) {
+        // Removing non-alphanumeric characters and converting to lowercase
+        String cleanStr = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
+        
+        // Checking if the string is a palindrome
+        int left = 0;
+        int right = cleanStr.length() - 1;
+        while (left < right) {
+            if (cleanStr.charAt(left) != cleanStr.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
     }
-    public boolean isPalindrome(String s) {
-        return s.equals(reverse(s));
-    }  
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	}
 }
