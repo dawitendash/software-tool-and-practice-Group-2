@@ -5,10 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.Test;
 //import org.junit.jupiter.api.Test;
-
 public class PalindromeCheckerTest {
     PalindromeChecker palindromeChecker = new PalindromeChecker();
-
+   
     @Test
     public void testIsPalindrome() {
         // Test cases
