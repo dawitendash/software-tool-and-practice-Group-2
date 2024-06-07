@@ -13,18 +13,18 @@ public class AnagramCheckerTest {
 	@Test
 	public void testSort() {
 		// Test if sorting "cab" results in "abc"
-		assertEquals("abc", AnagramChecker.sort("cab"));
+		assertEquals("listen", AnagramChecker.sort("silent"));
 		// Test if sorting "testing" results in "eginstt"
-		assertEquals("eginstt", AnagramChecker.sort("testing"));
+		assertEquals("binary", AnagramChecker.sort("brainy"));
 	}
 
 	// Test case for the isAnagrams method
 	@Test
 	public void testIsAnagrams() {
 		// Test if "abc" and "cab" are anagrams (expected: true)
-		assertEquals(true, AnagramChecker.isAnagrams("abc", "cab"));
+		assertEquals(true, AnagramChecker.isAnagrams("Paris", "pairs"));
 		// Test if "thought" and "taught" are anagrams (expected: false)
-		assertEquals(false, AnagramChecker.isAnagrams("thought", "taught"));
+		assertEquals(false, AnagramChecker.isAnagrams("listen", "silent"));
 	}
 
 	// You can add more test cases or methods here
