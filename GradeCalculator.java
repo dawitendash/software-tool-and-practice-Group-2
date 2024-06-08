@@ -12,7 +12,7 @@ public class GradeCalculator {
 		double mark = sc.nextDouble();
 
 		// getGrade(mark);
-		//check class
+	 
 		System.out.println(getGrade(mark));
 	}
 
