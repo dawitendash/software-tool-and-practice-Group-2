@@ -1,9 +1,9 @@
    ##questgions
 
-1.. Check string is a Palindrome
-2.. Calculates the largest prime factor of a given number.
-3.. Calculate grad of the given total mark( e.g 96=A+, 80=A- )
-4.. Check input of two strings are Anagrams?
+A. Check string is a Palindrome
+B. Calculates the largest prime factor of a given number.
+C. Calculate grad of the given total mark( e.g 96=A+, 80=A- )
+D. Check input of two strings are Anagrams?
 Two words are anagrams if they contain the same letters but in a different order. 
 Here are a few examples of anagram pairs:
 “listen” and “silent”
@@ -11,7 +11,7 @@ Here are a few examples of anagram pairs:
 “Paris” and “pairs”
 For a given input of two strings, return a Boolean TRUE if the two strings are 
 anagrams.
-5.. Song track record crud console application, each crud needs to be in separate method.
+E. Song track record crud console application, each crud needs to be in separate method.
                   
                   
                   
