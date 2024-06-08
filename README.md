@@ -1,4 +1,4 @@
-   ##questgions
+   ##questions
 
 1. Check string is a Palindrome
 2. Calculates the largest prime factor of a given number.
