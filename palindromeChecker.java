@@ -1,5 +1,4 @@
 package tools;
-
 public class PalindromeChecker {
     public boolean isPalindrome(String str) {
         // Removing non-alphanumeric characters and converting to lowercase
